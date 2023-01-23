@@ -3,18 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <!-- style.css -->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Frontend Mentor | Single Price Grid Component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
         font-size: 11px;
@@ -25,14 +22,49 @@
       }
     </style>
   </head>
-  <body>
-    Join our community 30-day, hassle-free money back guarantee Gain access to
-    our full library of tutorials along with expert code reviews. Perfect for
-    any developers who are serious about honing their skills. Monthly
-    Subscription &dollar;29 per month Full access for less than &dollar;1 a day
-    Sign Up Why Us Tutorials by industry experts Peer &amp; expert code review
-    Coding exercises Access to our GitHub repos Community forum Flashcard decks
-    New videos every week
+  <body
+    class="flex flex-col justify-center items-center min-h-screen bg-cl_lightGray"
+  >
+    <main>
+      <div class="container mx-auto p-5 py-10 max-w-2xl">
+        <div class="space-y-4 bg-white p-5">
+          <h1 class="text-cl_cyan text-xl font-bold">Join our community</h1>
+          <h2 class="text-cl_brightYellow font-bold">
+            30-day, hassle-free money back guarantee
+          </h2>
+          <p class="text-cl_grayishBlue leading-7 tracking-wider text-sm">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+        <div class="flex flex-col md:flex-row">
+          <div class="bg-cl_cyan p-7 text-white md:w-1/2">
+            <h1 class="text-lg mb-4">Monthly Subscription</h1>
+            <h2 class="text-4xl flex items-center mb-2 font-bold">
+              &dollar;29
+              <span class="text-base pl-2 text-cl_lightGray font-normal"
+                >per month</span
+              >
+            </h2>
+            <p class="mb-2">Full access for less than &dollar;1 a day</p>
+            <button
+              class="bg-cl_brightYellow inline-block mx-auto py-3 rounded-md drop-shadow-md"
+            >
+              Sign Up
+            </button>
+          </div>
+          <div class="bg-cl_lightCyan text-white p-7 space-y-4 md:w-1/2">
+            <h1 class="text-xl">Why Us</h1>
+            <p class="leading-6 pr-24 md:pr-0">
+              Tutorials by industry experts Peer &amp; expert code review Coding
+              exercises Access to our GitHub repos Community forum Flashcard
+              decks New videos every week
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <footer>
       <p class="attribution">
