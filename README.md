@@ -18,7 +18,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Live Site
 
-[Click Here](https://gleeful-marshmallow-822951.netlify.app/)
+[Click Here](https://peaceful-vacherin-55b9ed.netlify.app/)
 
 ### Built with
 
